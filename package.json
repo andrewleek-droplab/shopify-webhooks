@@ -15,8 +15,9 @@
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"clean": "rm -rf dist",
+		"clean": "rm -rf dist shopify-webhooks.tgz",
 		"compile": "tsc -d",
+		"archive": "mkdir package && cp -R {dist,src,LICENSE,package.json,README.md,tsconfig.json} package && tar -czvf shopify-webhooks.tgz package && rm -rf package",
 		"pretest": "npm run clean && npm run compile",
 		"test": "echo 'test'"
 	},

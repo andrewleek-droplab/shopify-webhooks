@@ -2,16 +2,9 @@
 	"name": "@capsule-corp/shopify-webhooks",
 	"version": "1.0.4",
 	"description": "Receive Shopify webhooks in your app without any middleware.",
-	"author": {
-		"email": "mokht@rmi.al",
-		"name": "Mokhtar Mial",
-		"url": "https://www.mokhtar.dev"
-	},
+	"author": "Mokhtar Mial <mokht@rmi.al> (https://www.mokhtar.dev)",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/capsule-corp/shopify-webhooks.git"
-	},
+	"repository": "git+https://github.com/capsule-corp/shopify-webhooks.git",
 	"bugs": {
 		"url": "https://github.com/capsule-corp/shopify-webhooks/issues"
 	},
@@ -28,16 +21,16 @@
 		"test": "echo 'test'"
 	},
 	"dependencies": {
-		"@shopify/network": "1.4.6",
-		"safe-compare": "1.1.4"
+		"@shopify/network": "^1.6.0",
+		"safe-compare": "^1.1.4"
 	},
 	"devDependencies": {
-		"@types/isomorphic-fetch": "0.0.35",
-		"@types/node": "13.7.6",
-		"@types/safe-compare": "1.1.0",
-		"typescript": "3.8.2"
+		"@types/isomorphic-fetch": "^0.0.35",
+		"@types/node": "^14.14.25",
+		"@types/safe-compare": "^1.1.0",
+		"typescript": "^4.1.3"
 	},
 	"peerDependencies": {
-		"isomorphic-fetch": ">=2.0.0"
+		"isomorphic-fetch": "^3.0.0"
 	}
 }
